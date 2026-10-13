@@ -2,6 +2,7 @@ apiVersion: ramendr.openshift.io/v1alpha1
 kind: Recipe
 metadata:
   name: filebrowser-rdr-recipe
+  namespace: studentxx
 spec:
   appType: filebrowser
   groups:
