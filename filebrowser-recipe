@@ -8,7 +8,7 @@ spec:
   - name: captured-resources
     type: resource
     includedNamespaces:
-    - demo1
+    - studentxx
     excludedResourceTypes:
     - events
     - event.events.k8s.io
@@ -28,7 +28,7 @@ spec:
     type: volume
     name: captured-volumes
     includedNamespaces:
-    - demo1
+    - studentxx
     labelSelector:
       matchExpressions:
       - key: ramendr.openshift.io/exclude
